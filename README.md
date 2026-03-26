@@ -7,7 +7,8 @@
 ## 0. 写在前面
 1. 请自行安装 `Mysql JDBC`库
 2. 在`server`文件夹下的 `/config/JDBCConfiguration.java` 中配置好自己的数据库的用户名，密码，数据库名称，数据表名称，在上传前已统一改成了 `your` 开头的字段
-3. `server`文件夹与`client`文件夹，本来均为`src`，请分别放到两个项目中，在使用时，最好先启动`server`，再启动`client`，尽管做了每过10s自动检测网路连接的功能但似乎并未奏效，若奏效了本人会删除这一行`readme`
+3. 在`server`文件夹下的 `/config/FileIOConfiguration.java` 中配置自己的本地文件存储地址，上传前已使用 `your`开头字段替换
+4. `server`文件夹与`client`文件夹，本来均为`src`，请分别放到两个项目中，在使用时，最好先启动`server`，再启动`client`，尽管做了每过10s自动检测网路连接的功能但似乎并未奏效，若奏效了本人会删除这一行`readme`
 
 ## 1. 项目概述
 ### 1.1 任务目标
